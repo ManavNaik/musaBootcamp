@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Trminal ctrl + j -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Complete Tutorial</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        code {
+            background: #eee;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Complete HTML Basics</h1>
+    <p>This page demonstrates the most commonly used HTML elements.</p>
+
+    <section>
+        <h2>1. Headings</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </section>
+
+    <section>
+        <h2>2. Paragraph</h2>
+        <p>This is a paragraph.</p>
+    </section>
+
+    <section>
+        <h2>3. Text Formatting</h2>
+        <b>Bold</b><br>
+        <strong>Strong</strong><br>
+        <i>Italic</i><br>
+        <em>Emphasized</em><br>
+        <u>Underline</u><br>
+        <mark>Highlighted</mark><br>
+        <small>Small Text</small><br>
+        H<sub>2</sub>O<br>
+        x<sup>2</sup>
+    </section>
+
+    <section>
+        <h2>4. Links</h2>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </section>
+
+    <section>
+        <!-- This img eg. "ctrl + /" -->
+        <h2>5. Images</h2>
+        <img src="https://picsum.photos/300/200" alt="Sample Image">
+    </section>
+
+    <section>
+        <h2>6. Lists</h2>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+            <li>Orange</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>7. Table</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+
+            <tr>
+                <td>Rahul</td>
+                <td>20</td>
+                <td>Mumbai</td>
+            </tr>
+
+            <tr>
+                <td>Priya</td>
+                <td>22</td>
+                <td>Pune</td>
+            </tr>
+
+            <tr>
+                <td>Priya</td>
+                <td>22</td>
+                <td>Pune</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>8. Forms</h2>
+
+        <form>
+
+            Name:
+            <input type="text"><br><br>
+
+            Email:
+            <input type="email"><br><br>
+
+            Password:
+            <input type="password"><br><br>
+
+            Gender:
+            <input type="radio" name="g"> Male
+            <input type="radio" name="g"> Female
+            <br><br>
+
+            Skills:
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+            <br><br>
+
+            City:
+            <select>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Delhi</option>
+                <option>Bangalore</option>
+            </select>
+
+            <br><br>
+
+            Message:
+            <br>
+            <textarea rows="5" cols="30"></textarea>
+
+            <br><br>
+
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+    </section>
+
+    <section>
+        <h2>9. Multimedia</h2>
+
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+        </audio>
+
+        <br><br>
+
+        <video width="500" controls>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section>
+        <h2>10. Semantic HTML</h2>
+
+        <header>
+            Header Section
+        </header>
+
+        <nav>
+            Navigation Bar
+        </nav>
+
+        <main>
+            Main Content
+        </main>
+
+        <article>
+            Article Example
+        </article>
+
+        <aside>
+            Sidebar
+        </aside>
+
+        <footer>
+            Footer
+        </footer>
+
+    </section>
+
+    <section>
+        <h2>11. HTML Entities</h2>
+
+        &lt;html&gt;<br>
+        &copy; 2026<br>
+        &reg;<br>
+        &hearts;
+    </section>
+
+    <section>
+        <h2>12. Inline vs Block Elements</h2>
+
+        <div style="background:lightblue;padding:10px;">
+            This is a block element (div)
+        </div>
+
+        <br>
+
+        <span style="background:yellow;">
+            This is an inline element (span)
+        </span>
+    </section>
+
+    <section>
+        <h2>13. HTML Comments</h2>
+
+        <!-- ctrl + / -->
+        <code>
+            &lt;!-- This is a comment --&gt;
+        </code>
+
+    </section>
+
+    <section>
+        <h2>14. Iframe</h2>
+
+        <iframe src="https://manavnaik.netlify.app/"
+                width="1000"
+                height="500">
+        </iframe>
+    </section>
+
+    <section>
+        <h2>15. Conclusion</h2>
+
+        <p>
+            Congratulations! You have learned the basic HTML tags including:
+        </p>
+
+        <ul>
+            <li>Headings</li>
+            <li>Paragraphs</li>
+            <li>Formatting</li>
+            <li>Links</li>
+            <li>Images</li>
+            <li>Lists</li>
+            <li>Tables</li>
+            <li>Forms</li>
+            <li>Audio & Video</li>
+            <li>Semantic HTML</li>
+            <li>Entities</li>
+            <li>Comments</li>
+            <li>Iframe</li>
+        </ul>
+
+    </section>
+
+</body>
+</html>
