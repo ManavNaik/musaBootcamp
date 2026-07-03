@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Complete CSS Basics</title>
+
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Element Selector */
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: darkblue;
+        }
+
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px gray;
+        }
+
+        /* Class Selector */
+        .box {
+            width: 200px;
+            height: 100px;
+            background: royalblue;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            margin-top: 10px;
+        }
+
+        /* ID Selector */
+        #special {
+            background: crimson;
+        }
+
+        /* Colors */
+        .color-demo {
+            color: green;
+            background: yellow;
+            padding: 10px;
+        }
+
+        /* Border */
+        .border-box {
+            border: 4px solid red;
+            padding: 15px;
+        }
+
+        /* Margin & Padding */
+        .spacing {
+            margin-top: 20px;
+            padding: 40px;
+            margin: 20px;
+            background: lightblue;
+            border: 2px solid black;
+        }
+
+        /* Fonts */
+        .font-demo {
+            font-size: 25px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: cursive;
+        }
+
+        /* Text */
+        .text-demo {
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            letter-spacing: 3px;
+        }
+
+        /* Hover */
+        button {
+            background: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        button:hover {
+            background: orange;
+            transform: scale(1.1);
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Complete CSS Basics</h1>
+
+    <section>
+        <h2>1. CSS Selectors</h2>
+
+        <div class="box">Class Selector</div>
+
+        <div class="box" id="special">
+            ID Selector
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>2. Colors</h2>
+
+        <p class="color-demo">
+            This text has color and background.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>3. Borders</h2>
+
+        <div class="border-box">
+            Border Example
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>4. Margin & Padding</h2>
+
+
+        <div class="spacing">
+            Margin outside, Padding inside
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>5. Fonts</h2>
+
+        <p class="font-demo">
+            CSS Font Styling
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>6. Text Properties</h2>
+
+        <p class="text-demo">
+            Hello CSS
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>7. Hover & Transition</h2>
+
+        <button>
+            Hover Me
+        </button>
+
+    </section>
+
+</body>
+
+</html>
